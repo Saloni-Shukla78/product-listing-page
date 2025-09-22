@@ -1,12 +1,96 @@
-# React + Vite
+**Product Listing Page**
+A responsive product listing page built with React + Vite + Tailwind CSS.
+It replicates the given Figma design with pixel-perfect UI,reusable components,filters, pagination, sorting.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+Reusable Components: Navbar, Sidebar,Header, FilterPanel, ProductCard, ProductList , Pagination, Footer, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pagination: Client-side pagination with mock data.
 
-## Expanding the ESLint configuration
+Responsive Design: Works on Desktop, Tablet, and Mobile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic State: Sorting, filtering, and pagination states stay in sync.
+
+** Project Structure**
+
+product-listing-page/
+├── public/  #images and logo
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── FilterPanel.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── Pagination.jsx
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── ProductList.jsx
+│   ├── pages/
+│   │   └── ProductListingPage.jsx
+│   ├── data/
+│   │   └── mockProducts.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── package-lock.json
+├── index.html
+└── vite.config.js
+
+
+**Tech Stack**
+
+React + Vite 
+JavaScript(ES6+)
+Tailwind CSS for styling
+Mock Data for products
+React icons for icons
+
+ **Installation & Setup Section**
+
+1. **Clone the repo**
+ 
+   git clone https://github.com/your-username/product-listing-page.git
+   cd product-listing-page
+
+2. **Install dependencies**
+
+   npm install
+
+3. **Install Tailwind CSS (latest)**
+   Tailwind is already added in this project, but if you set it up again:
+
+    npm install tailwindcss @tailwindcss/vite
+
+   Then add the following to **vite.config.js**:
+
+     tailwindcss(),   #Add the Tailwind CSS plugin to your plugins array
+
+   And in src/index.css add:
+
+   @import "tailwindcss";
+
+5. **Install React Icons (for icons)**
+
+   npm install react-icons
+
+6. **Start development server**
+
+   npm run dev
+ 
+7. **Build for production**
+
+   npm run build
+ 
+8. **Preview production build**
+
+   npm run preview
+
+
+
+
+
+
+
+
