@@ -5,7 +5,7 @@ import { BiSolidGrid } from "react-icons/bi";
 const FilterPanel = ({ categoryFilter, setCategoryFilter, itemsPerPage, setItemsPerPage }) => {
   return (
     <>
-      <div className='flex flex-row sm:justify-between bg-[#F6F7F8] px-1 md:px-5 rounded-xs border-2 border-[#F1F3F4] sm:space-x-3 text-[#22262A] items-center' >
+      <div className='flex flex-row justify-between bg-[#F6F7F8] px-1 md:px-5 rounded-xs border-2 border-[#F1F3F4] sm:space-x-3 text-[#22262A] items-center' >
         <div className='flex gap-2 sm:gap-5 justify-center items-center'>
           <div className='md:text-[16px] p-1 sm:p-2  text-[12px]'> 13 items</div>
           <div className='flex flex-row p-2 gap-3 md:text-[16px]  text-[12px] '>
