@@ -40,13 +40,15 @@ const Sidebar = () => {
         <div className='flex flex-col bg-gray-100 gap-y-4 py-6 px-6 rounded '>
           <h3 className='font-medium text-lg'>COLOR</h3>
           <div className='flex flex-row gap-x-4 justify-between mb-2'>
-            <button className='w-6 h-6 rounded-full bg-[#006CFF]'></button>
-            <button className='w-6 h-6 rounded-full bg-[#FC3E39]'></button>
-            <button className='w-6 h-6 rounded-full bg-[#171717]'></button>
-            <button className='w-6 h-6 rounded-full bg-[#FFF600]'></button>
+            <div className='flex justify-center items-center rounded-full border-2 border-[#006CFF] p-1'>
+            <button className='w-6 h-6 rounded-full bg-[#006CFF]'/></div>
+            
+            <button className='w-6 h-6 rounded-full bg-[#FC3E39]'/>
+            <button className='w-6 h-6 rounded-full bg-[#171717]'/>
+            <button className='w-6 h-6 rounded-full bg-[#FFF600]'/>
 
-            <button className='w-6 h-6 rounded-full bg-[#FF00B4]'></button>
-            <button className='w-6 h-6 rounded-full bg-[#EFDFDF]'></button>
+            <button className='w-6 h-6 rounded-full bg-[#FF00B4]'/>
+            <button className='w-6 h-6 rounded-full bg-[#EFDFDF]'/>
 
           </div>
         </div>
