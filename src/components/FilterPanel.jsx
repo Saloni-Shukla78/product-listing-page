@@ -17,8 +17,8 @@ const FilterPanel = ({ categoryFilter, setCategoryFilter, itemsPerPage, setItems
                 <option value='All'>All</option>
                 <option value='Fashion'>Fashion</option>
                 <option value='Footwear'>Footwear</option>
-                <option value='Electronics'>Electronics</option>
-                <option value='Food'>Food</option>
+                <option value='Fitness'>Fitness</option>
+                <option value='Books'>Books</option>
               </select>
             </span>
           </div>
