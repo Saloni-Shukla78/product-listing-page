@@ -46,8 +46,7 @@ const Navbar = () => {
     )}
 
     {sidebarOpen && (<div className='absolute top-14 flex lg:hidden z-50'>
-      <div><Sidebar/><button className='mt-6 text-[#FF4858]'onClick={() => setSidebarOpen(false)}
-      >Close</button></div>
+      <div><Sidebar/></div>
       <div className='flex-1 bg-black' 
       onClick={() => setSidebarOpen(false)}></div>
     </div>)}
