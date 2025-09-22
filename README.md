@@ -1,4 +1,5 @@
 **Product Listing Page**
+
 A responsive product listing page built with React + Vite + Tailwind CSS.
 It replicates the given Figma design with pixel-perfect UI,reusable components,filters, pagination, sorting.
 
@@ -13,7 +14,7 @@ Responsive Design: Works on Desktop, Tablet, and Mobile.
 Dynamic State: Sorting, filtering, and pagination states stay in sync.
 
 ** Project Structure**
-
+```
 product-listing-page/
 ├── public/  #images and logo
 ├── src/
@@ -37,6 +38,8 @@ product-listing-page/
 ├── package-lock.json
 ├── index.html
 └── vite.config.js
+
+```
 
 
 **Tech Stack**
